@@ -1,0 +1,24 @@
+Anoconda is a python distribution package
+Anoconda has greater number of available packag while miniconda has little less, you can install either of them. but if you want to use the benifit of virtual environment, 
+its better to use miniconda 
+
+what is the role of anaconda powershell ? 
+-its just makes easier to create virtual environment. Remeber you would create virtual RAM back in school days. So, we cannot create virtual environment as we
+don' have GUI available. so, we give commands to PC in bash scripts so it obeys you.
+
+how to create virtual environment and what is the benifit?
+conda create --name virtual_environment python= 10.8.58 : this command line creates a new virtual environment with python and some sub packages pre-installed.
+to install new packages in the environment, you first have to be in that global environment and use install
+
+conda env list : this script gives all enviornment available in my pc
+conda list: it gives list of all packages installed, including the version of python
+
+What is channel in anaconda?
+Conda channels are the remote locations in internet where packages are stored. 
+chekcout this link for more information : https://www.freecodecamp.org/news/what-is-a-channel-in-conda/
+
+in what case running git status add all files of the computer ?
+its when working directory is not initialized
+
+You can download github GUI from here: https://cli.github.com/
+once you install this, you can create repository from bash into github. this means you do not have to open github to create new repository

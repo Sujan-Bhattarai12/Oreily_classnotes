@@ -1,0 +1,39 @@
+triple quoted strings
+-use it when you statement spans multiple lines
+-use if you values alrady has single or double quoted strings
+-use it in docstring( i dont know about this) 
+
+object oriented or dynamic typing
+all codes executed are object, and based on object types, python performs its work
+dynamic typing is where you update the values/content of the object. in case of value update, the previous value will be in garbage
+collector which will be emptied during runtime. this frees up the memory
+
+like curly brackets in R, for python its indentation.so, if you are putting random indentation, its like adding random brackets.
+
+
+Sentinal control iteration: 
+ what if you dont know how many data exists? in that case you apply loop for a condidtion that does not exists. and unless all data is read, the condition won't satisfy. this will let you fetch all data. 
+
+from decimal import Decimal: 
+this is required for high degree of precision. it stores vlaues in the formats of strings and not in binary, makes it precise. i might use it if i work on rockets though
+
+break and continue statements
+
+
+and or not operators
+statistics module
+creating functions in python 
+"H" if random.randrange(2) == 0 else "T" : its a good way of using elseif statement
+local scope and global scope
+importing modules and functoins, giving short names to module importing, and shortcoming of wildcat import(eg: from math import * ) this import all 
+object ID in python
+function style programming:declarative programming: pure functions 
+
+
+list comprehension 
+list4 = [item for item in range(1,6) if item % 2 == 0]
+
+generator expression 
+for i in (x**3 for x in li if x % 2 == 0):
+   ...:     print(i)  ##see the parenthesis instead of big brackets. this defines generator expression.
+
